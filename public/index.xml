@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Jan 2026 23:40:13 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Detail Panduan</title>
+      <link>http://localhost:1313/detail-panduan/</link>
+      <pubDate>Tue, 27 Jan 2026 23:40:13 +0800</pubDate>
+      <guid>http://localhost:1313/detail-panduan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Daftar</title>
+      <link>http://localhost:1313/daftar/</link>
+      <pubDate>Tue, 27 Jan 2026 23:39:55 +0800</pubDate>
+      <guid>http://localhost:1313/daftar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kebijakan Privasi</title>
+      <link>http://localhost:1313/kebijakan-privasi/</link>
+      <pubDate>Tue, 27 Jan 2026 23:39:55 +0800</pubDate>
+      <guid>http://localhost:1313/kebijakan-privasi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Login</title>
+      <link>http://localhost:1313/login/</link>
+      <pubDate>Tue, 27 Jan 2026 23:39:55 +0800</pubDate>
+      <guid>http://localhost:1313/login/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Syarat Ketentuan</title>
+      <link>http://localhost:1313/syarat-ketentuan/</link>
+      <pubDate>Tue, 27 Jan 2026 23:39:55 +0800</pubDate>
+      <guid>http://localhost:1313/syarat-ketentuan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fitur</title>
+      <link>http://localhost:1313/fitur/</link>
+      <pubDate>Tue, 27 Jan 2026 23:39:54 +0800</pubDate>
+      <guid>http://localhost:1313/fitur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kontak Kami</title>
+      <link>http://localhost:1313/kontak-kami/</link>
+      <pubDate>Tue, 27 Jan 2026 23:39:54 +0800</pubDate>
+      <guid>http://localhost:1313/kontak-kami/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Panduan</title>
+      <link>http://localhost:1313/panduan/</link>
+      <pubDate>Tue, 27 Jan 2026 23:39:54 +0800</pubDate>
+      <guid>http://localhost:1313/panduan/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

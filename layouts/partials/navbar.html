@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="{{ "/" | relURL }}">
+      <img src="{{ "assets/image/logo.png" | relURL }}" alt="Logo" height="40">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+      <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-3">
+        <li class="nav-item">
+          <a class="nav-link {{ if .IsHome }}active{{ end }}" href="{{ "/" | relURL }}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ "/fitur/" | relURL }}">Fitur</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ "/panduan/" | relURL }}">Panduan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ "/kontak-kami/" | relURL }}">Kontak Kami</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ "/login/" | relURL }}">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

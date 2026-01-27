@@ -1,0 +1,239 @@
+{{ define "page_css" }}
+<link rel="stylesheet" href="{{ "assets/css/style.css" | relURL }}">
+{{ end }}
+
+{{ define "main" }}
+
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-lg-6 text-center text-lg-start">
+        <h1 class="hero-title">
+          Kelola <span class="text-brand">Absensi</span><br>
+          <span class="text-brand">Berbasis</span> Cerdas
+        </h1>
+
+        <p class="hero-desc">
+          <strong>Presensita</strong> memudahkan perusahaan anda mengelola karyawan
+          di dalam dan di luar kantor, serta dapatkan laporan presensi
+          karyawan dengan mudah
+        </p>
+
+        <div class="hero-actions d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+          <a href="{{ "/daftar/" | relURL }}" class="btn hero-btn-primary">
+            Coba Sekarang!
+          </a>
+
+          <a href="#demo" class="btn hero-btn-outline">
+            <i class="bi bi-play-circle"></i>
+            Lihat Demo
+          </a>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 d-none d-lg-flex justify-content-end">
+        <div class="hero-mockup">
+          <img src="{{ "assets/image/mockup-hero.png" | relURL }}" alt="Presensita App" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="feature-section">
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-md-4">
+        <div class="feature-card">
+          <i class="bi bi-display feature-icon"></i>
+          <p class="feature-text">Manajemen Karyawan Lebih Mudah</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="feature-card">
+          <i class="bi bi-people feature-icon"></i>
+          <p class="feature-text">Pantau Aktifitas Karyawan Di manapun Bekerja</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="feature-card">
+          <i class="bi bi-pie-chart feature-icon"></i>
+          <p class="feature-text">Laporan Data Absensi yang Lengkap</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="benefit-section">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-lg-4 d-none d-lg-flex justify-content-center mb-4 mb-lg-0">
+        <img src="{{ "assets/image/mockup-feature.png" | relURL }}" alt="Presensita App" class="img-fluid benefit-mockup">
+      </div>
+
+      <div class="col-lg-8 text-center text-lg-start">
+        <h2 class="benefit-title">
+          <span class="text-brand">Presensita </span>Memudahkan Perusahaan Anda dalam Memantau kehadiran Karyawan
+        </h2>
+
+        <p class="benefit-subtitle">Keunggulan Presensita</p>
+
+        <ul class="benefit-list">
+          <li>Presensi berbasis aplikasi mobile</li>
+          <li>Pengaturan izin dan cuti</li>
+          <li>Manajemen jam kerja (shift dan lembur)</li>
+          <li>Berbasis GPS / geotagging</li>
+          <li>Presensi di setiap kantor cabang secara terpusat</li>
+          <li>Tanpa perlu investasi perangkat absensi</li>
+          <li>Tracking karyawan</li>
+        </ul>
+
+        <a href="{{ "/fitur/" | relURL }}" class="btn benefit-btn">
+          Selengkapnya...
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="industry-section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="industry-title">Presensita Membantu Perusahaan Anda Berkembang</h2>
+      <p class="industry-subtitle">Bentuk perusahaan apa saja yang membutuhkan Presensita?</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4"><div class="industry-card"><i class="bi bi-building industry-icon"></i><p class="industry-text">Industri dan Pabrik</p></div></div>
+      <div class="col-md-4"><div class="industry-card"><i class="bi bi-people industry-icon"></i><p class="industry-text">Perusahaan Outsorching</p></div></div>
+      <div class="col-md-4"><div class="industry-card"><i class="bi bi-bank industry-icon"></i><p class="industry-text">Lembaga Pendidikan</p></div></div>
+      <div class="col-md-4"><div class="industry-card"><i class="bi bi-cup-hot industry-icon"></i><p class="industry-text">Cafe dan Restoran</p></div></div>
+      <div class="col-md-4"><div class="industry-card"><i class="bi bi-lightbulb industry-icon"></i><p class="industry-text">Instansi Pemerintahan</p></div></div>
+      <div class="col-md-4"><div class="industry-card"><i class="bi bi-hospital industry-icon"></i><p class="industry-text">Lembaga Kesehatan</p></div></div>
+    </div>
+  </div>
+</section>
+
+ <section class="pricing-section">
+        <div class="container">
+
+            <!-- TITLE -->
+            <div class="text-center mb-5">
+                <h2 class="pricing-title">
+                    Berikut Ini Penawaran Terbaik Kami Hanya Untuk Anda
+                </h2>
+            </div>
+
+            <!-- PRICING CARDS -->
+            <div class="row g-4 justify-content-center">
+
+                <!-- BASIC -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="pricing-card">
+                        <h6 class="pricing-name">BASIC</h6>
+                        <h4 class="pricing-price">Rp 90.000 <span>/ bulan</span></h4>
+                        <ul class="pricing-list">
+                            <li>Hingga 15 karyawan</li>
+                            <li>Akses fitur Basic & Premium</li>
+                            <li>Minimal langganan 6 bulan</li>
+                        </ul>
+                        <a href="daftar.html" class="btn pricing-btn">Pilih Paket</a>
+                    </div>
+                </div>
+
+                <!-- SILVER -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="pricing-card">
+                        <h6 class="pricing-name">SILVER</h6>
+                        <h4 class="pricing-price">Rp 300.000 <span>/ bulan</span></h4>
+                        <ul class="pricing-list">
+                            <li>Hingga 50 karyawan</li>
+                            <li>Akses fitur Basic & Premium</li>
+                            <li>Minimal langganan 6 bulan</li>
+                        </ul>
+                        <a href="daftar.html" class="btn pricing-btn">Pilih Paket</a>
+                    </div>
+                </div>
+
+                <!-- GOLD -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="pricing-card">
+                        <h6 class="pricing-name">GOLD</h6>
+                        <h4 class="pricing-price">Rp 600.000 <span>/ bulan</span></h4>
+                        <ul class="pricing-list">
+                            <li>Hingga 100 karyawan</li>
+                            <li>Akses fitur Basic & Premium</li>
+                            <li>Minimal langganan 6 bulan</li>
+                        </ul>
+                        <a href="daftar.html" class="btn pricing-btn">Pilih Paket</a>
+                    </div>
+                </div>
+
+                <!-- PLATINUM -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="pricing-card">
+                        <h6 class="pricing-name">PLATINUM</h6>
+                        <h4 class="pricing-price">Rp 1.200.000 <span>/ bulan</span></h4>
+                        <ul class="pricing-list">
+                            <li>Hingga 200 karyawan</li>
+                            <li>Akses fitur Basic & Premium</li>
+                            <li>Minimal langganan 6 bulan</li>
+                        </ul>
+                        <a href="daftar.html" class="btn pricing-btn">Pilih Paket</a>
+                    </div>
+                </div>
+
+                <!-- ENTERPRISE -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="pricing-card">
+                        <h6 class="pricing-name">ENTERPRISE</h6>
+                        <h4 class="pricing-price">On Call</h4>
+                        <ul class="pricing-list">
+                            <li>Jumlah karyawan tidak terbatas</li>
+                            <li>Akses fitur Basic & Premium</li>
+                            <li>Self-Hosted (On-Premise)</li>
+                        </ul>
+                        <a href="daftar.html" class="btn pricing-btn">Pilih Paket</a>
+                    </div>
+                </div>
+
+                <!-- CUSTOMIZE -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="pricing-card">
+                        <h6 class="pricing-name">CUSTOMIZE</h6>
+                        <h4 class="pricing-price">Rp 7.000 <span>/ user / bulan</span></h4>
+                        <ul class="pricing-list">
+                            <li>Jumlah karyawan fleksibel</li>
+                            <li>Akses fitur Basic & Premium</li>
+                            <li>Minimal langganan 6 bulan</li>
+                        </ul>
+                        <a href="daftar.html" class="btn pricing-btn">Pilih Paket</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+<section class="cta-section">
+  <div class="container text-center">
+    <h2 class="cta-title">Jadwalkan Konsultasi dengan Presensita</h2>
+
+    <a href="https://wa.me/6282347491087" target="_blank" rel="noopener noreferrer" class="btn cta-btn">
+      WhatsApp Kami
+    </a>
+  </div>
+</section>
+
+{{ end }}
